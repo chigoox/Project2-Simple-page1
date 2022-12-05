@@ -1,0 +1,69 @@
+html{
+    margin: 0;
+}
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.container{
+
+    width: 100%;
+    color: white;
+    background-color: rgb(243, 237, 237);
+    display: flex;
+    width: 700;
+    padding: 20px;
+    
+}
+
+.box1, .box2,.box3
+{
+
+    width: 250;
+    height: 450;
+    margin: 0;
+    
+}
+.box1button, .box2button,.box3button
+{
+    border: 0px solid whitesmoke;
+    width: 100;
+    height: 30;
+    padding: 10;
+    border-radius: 20px;
+    overflow: none;
+    position: relative;
+    top: 190;
+    left: 45;
+    box-shadow: 0px 5px;
+}
+.box1button:hover{
+    color: orange;
+    font-size: 15;
+    padding: 10;
+    box-shadow: 0px 5px;
+}
+.box2button:hover{
+    color:  cadetblue;
+    font-size: 15;
+    padding: 10;
+    box-shadow: 0px 5px;
+}
+
+
+.box1{                                                                      
+    background-color: orange;
+
+}
+.textbox1, .textbox2, .textbox3{
+    padding: 10;
+}
+
+.box2{
+    background-color: cadetblue;
+    
+}
+.box3{
+    background-color: darkcyan;
+}
